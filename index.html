@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="w keyth=device-w keyth, initial-scale=1.0">
+    <title>Logic Gates</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <p class="input-label">INPUT</p>
+    <div class="inputs">
+        <div class="input" key="0"></div>
+        <div class="input" key="1"></div>
+        <div class="input" key="2"></div>
+    </div>
+
+    <div class="input-connectors">
+        <div class="input-connector connector" key="0"></div>
+        <div class="input-connector connector" key="1"></div>
+        <div class="input-connector connector" key="2"></div>
+    </div>
+
+    <p class="output-label">OUTPUT</p>
+    <div class="outputs">
+        <div class="output" key="3"></div>
+    </div>
+
+    <div class="output-connectors">
+        <div class="output-connector connector" key="3"></div>
+    </div>
+
+    <canvas class="canvas"></canvas>
+
+    <div class="gates">
+       
+    </div>
+
+
+    <div class="contextmenu contextmenu-gate hidden">
+        <div class="contextmenu-item" type="and">AND</div>
+        <div class="contextmenu-item" type="or">OR</div>
+        <div class="contextmenu-item" type="not">NOT</div>
+    </div>
+
+    <div class="contextmenu contextmenu-input hidden">
+        <div class="contextmenu-item">Add Input</div>
+    </div>
+
+    <div class="contextmenu contextmenu-output hidden">
+        <div class="contextmenu-item">Add Output</div>
+    </div>
+</body>
+</html>
